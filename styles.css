@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 :root {
-    --primary-color: #78350f;
+    --primary-color: #d97706;
     --off-white: #f1f5f9;
     --dark-gray: #6b7280;
 }
@@ -81,7 +81,7 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 
@@ -89,6 +89,7 @@ hr {
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -135,6 +136,11 @@ hr {
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
